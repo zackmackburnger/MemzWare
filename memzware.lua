@@ -1,12 +1,12 @@
---version 1.7 last updated on 13-1-2023
+--version 1.8 last updated on 9-15-23
 
 --Defining the ui library
 local Rayfield = loadstring(readfile('MemzWare/Assets/UiLib.lua'))()
 
 local Window = Rayfield:CreateWindow({
-	Name = "MemzWare | 1.7",
+	Name = "MemzWare | 1.8",
 	LoadingTitle = "Loading..",
-	LoadingSubtitle = "by Memz#7217",
+	LoadingSubtitle = "by memz.ware",
 	ConfigurationSaving = {
 		Enabled = true,
 		FolderName = "MemzWare", -- Create a custom folder for your hub/game
@@ -14,18 +14,18 @@ local Window = Rayfield:CreateWindow({
 	},
         Discord = {
         	Enabled = true,
-        	Invite = "ruvuWm4yD4", -- The Discord invite code, do not include discord.gg/
+        	Invite = "soon", -- The Discord invite code, do not include discord.gg/
         	RememberJoins = false -- Set this to false to make them join the discord every time they load it up
         },
 	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
 		Title = "MemzWare",
 		Subtitle = "Key System",
-		Note = "Join the discord (https://discord.gg/ruvuWm4yD4)",
+		Note = "BETA Key: NewMemz",
 		FileName = "VapeBedwarsData",
 		SaveKey = true,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-		Key = "MemzWare"
+		Key = "NewMemz"
 	}
 })
 --end of defining ui library
